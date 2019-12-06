@@ -48,4 +48,8 @@ class PolyTreeNode
         nil
     end
 
+    def inspect
+        self.value
+    end
+
 end
